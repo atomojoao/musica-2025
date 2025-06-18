@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomenda Músicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Recomenda Músicas</h1>
+    <p>Escolha seu humor e receba uma sugestão musical!</p>
+
+    <select id="humor">
+      <option value="">-- Escolha seu humor --</option>
+      <option value="feliz">Feliz 😊</option>
+      <option value="triste">Triste 😢</option>
+      <option value="motivado">Motivado 💪</option>
+      <option value="romantico">Romântico ❤️</option>
+    </select>
+
+    <button onclick="recomendarMusica()">Recomendar</button>
+
+    <div id="recomendacao" class="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
